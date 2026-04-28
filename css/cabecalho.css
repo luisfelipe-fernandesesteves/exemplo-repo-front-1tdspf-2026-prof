@@ -12,23 +12,21 @@
 
 .cabecalho__li{
     display: inline-block;
-    margin: 10px 1%;
+    margin: 0 1%;
 }
 
 .cabecalho__a{
-    display: flex;
-    background-color: violet;
-    padding: 1%;
-    width: vw;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;    
+    display: inline-block;
+    padding: 4%;
+    width: 9vw;
+    text-align: center;
+    color: #fff;
    
 }
 
 /*PSEUDO CLASSE*/
 
 .cabecalho__a:hover{
-    background-color: #000000;
-    color: #ffffff;
+    background-color:#1763a5;
+    color: #fff;
 }
